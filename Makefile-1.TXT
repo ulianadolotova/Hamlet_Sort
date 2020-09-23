@@ -1,0 +1,7 @@
+all:
+	g++ -c Hamlet_main.cpp
+	g++ -c File_Interactor.cpp
+	g++ -c Processing_strings.cpp
+	g++ -c Sorting_Strings.cpp
+	g++ -c Hamlet_Unit_Tests.cpp
+	g++ Hamlet_Unit_Tests.o Hamlet_main.o File_Interactor.o Processing_Strings.o Sorting_Strings.o -o Hamlet 
